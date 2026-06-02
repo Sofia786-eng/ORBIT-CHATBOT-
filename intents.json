@@ -1,0 +1,171 @@
+{
+    "intents": [
+      {"tag": "greeting",
+        "patterns": ["Hi", "How are you", "Hello", "hey"],
+        "response": ["Hello! How can i help you", "Hi","Hi! how can i help you"]
+      },
+      {
+        "tag": "gooodbye",
+        "patterns": [
+          "quit",
+          "Bye"
+        ],
+        "response": [
+          "Good Bye! Have A Nice Day"
+        ]
+      },
+      {"tag": " about SWCET",
+        "patterns":[
+          "Tell me about SWCET",
+          "Information about SWCET",
+          "History of SWCET",
+          "when was SWCET founded",
+          "About SWCET",
+          "Ranking of SWCET",
+          "SWCET ranking",
+          "significance of SWCET",
+          "significance of COLLEGE",
+          "FOUNDED BY WHOM",
+          "FOUNDER OF SWCET"],
+        "response": ["https://swcet.in/about-swcet"]
+      },
+      {"tag": "name",
+      "patterns":["name", "what is your name", "whats your name", "who are you"],
+      "response":["I am SWCET BOT, your virtual assistant for all information related to SWCET. How can I assist you today?"]
+      },
+      {
+      "tag": "branch",
+      "patterns":[
+        "how many branches are there",
+        "number of branches",
+        "list of departments",
+        "list of courses offered",
+        "streams"
+      ],
+      "response":[
+        "CSE",
+        "IT",
+        "AI&DS",
+        "AI&ML",
+        "MECHANICAL",
+        "CIVIL",
+        "EEE",
+        "EIE",
+        "ECE",
+        "PRODUCTION ENGINEERING"
+      ]
+      },
+      {
+        "tag":"admission",
+        "patterns":[
+          "Eligibility criteria for seeking admission into B.E for all courses.",
+          "How to take admission into SWCET",
+          "What is the councelling process",
+          "what is the process of admission",
+          "Eamcet",
+          "How to go through Management seat process",
+          "How to go through Management quota process",
+          "How to go through Convenor quota process"
+        ],
+        "response":["  A student can take addmission at mjcet in 3 ways 1.A-category(Eamcet,spot admission)  2.B-category(JEE-Main) 3.NRI  For details visit:https://swcet.in/"]
+        },
+          {
+            "tag":"fee",
+            "patterns":["information about fee","tell me about fee","fee per semester","college fee",
+              "what is the fee for each semester","what is the fee for each year","how much is the fees","fees","fee payment info",
+              "what is the fee structure for convener quota","fee structure","fees per year","about fee",
+              "Tuition fee","fee for management quota"],
+            "response":["For fee policy details visit:https://swcet.in/ and for tuition fee details visit:https://swcet.in/"]
+            },
+              {
+                "tag":"reservation policy",
+                "patterns":["allotment of seats","eligibility criteria for admission","method of admission",
+                  "procedure of admissions","category A-seats","admission into minority institutions under Eamcet stream",
+                  "Admission into minority instituion","category B seats","procedure for category-B seat",
+                  "procedure for category-A seat","rules of reservation for admission","penalty for violation of rules",
+                  "fee for engineering and pharmacy colleges"],
+                "response":["FOR DETAILS ON RESERVATION POLICY AND ELIGIBITY CRITERIA VISIT: https://swcet.in/pdf/Resevation-policy.pdf"]
+  
+  
+  
+              },
+              {
+                "tag":"cse department",
+                "patterns":["information about cse department","information about computer science engineering",
+                  "about the course","program education knowledge","labs for the course","Hod of cse",
+                  "faculty","syllabus","head of the department"],
+                "response":["For detailed information on Computer Science Engineering(CSE) department, visit: https://swcet.in/"]
+              },
+  
+              {
+                "tag":"AI&DS department",
+                "patterns":["information about AI&DS department","information about artificial intelligence and data science engineering",
+                  "about the course","program education knowledge","labs for the course","Hod of AI&DS","Head of the department",
+                  "faculty","syllabus"],
+                "response":["For detailed information on Artificial Intelligence and Data Science(AI&DS)department, visit: https://swcet.in/"]
+              },
+  
+              {
+                "tag":"AI&ML department",
+                "patterns":["information about AI&ML department","information about artificial intelligence and machine learning",
+                  "about the course","program education knowledge","labs for the course","Hod of AI&ML","Head of the department",
+                  "faculty","syllabus"],
+                "response":["For detailed information on Artificial Intelligence and Machine learning(AI&ML) department, visit:https://swcet.in/"]
+              },
+  
+              {
+                "tag":"IT department",
+                "patterns":["information about IT department","information about Information technology",
+                  "about the course","program education knowledge","labs for the course","Hod of IT","Head of the department",
+                  "faculty","syllabus"],
+                "response":["For detailed information on Information Technology(IT)department, visit:https://swcet.in/"]
+              },
+  
+              {
+                "tag":"Civil department",
+                "patterns":["information about Civil department","information about Civil engineering",
+                  "about the course","program education knowledge","labs for the course","Hod of Civil","Head of the department",
+                  "faculty","syllabus"],
+                "response":["For detailed information on Civil department, visit:https://swcet.in/"]
+                  },
+  
+                  {
+                    "tag":"Mechanical department",
+                    "patterns":["information about Mechanical department","information about Mechanical",
+                      "about the course","program education knowledge","labs for the course","Hod of Mechanical","Head of the department",
+                      "faculty","syllabus"],
+                    "response":["For detailed information on Mechanical department, visit:https://swcet.in/"]
+                  },
+  
+                  {
+                    "tag":"EEE department",
+                    "patterns":["information about EEE department","information about Electrical and electronics engineering",
+                      "about the course","program education knowledge","labs for the course","Hod of EEE","Head of the department",
+                      "faculty","syllabus"],
+                    "response":["For detailed information on Electrical and electronics engineering(EEE) department, visit:https://swcet.in/"]
+                  },
+  
+                  {
+                    "tag":"ECE department",
+                    "patterns":["information about ECE department","information about Electronics and communications engineering",
+                      "about the course","program education knowledge","labs for the course","Hod of ECE","Head of the department",
+                      "faculty","syllabus"],
+                    "response":["For detailed information on Electronics and communications engineering(ECE) department, visit:https://swcet.in/"]
+                  },
+                  {
+                    "tag":"EIE department",
+                    "patterns":["information about EIE department","information about Electronics and Instrumentation engineering",
+                      "about the course","program education knowledge","labs for the course","Hod of EIE","Head of the department",
+                      "faculty","syllabus"],
+                    "response":["For detailed information on Electronics and Instrumentation engineering(EIE) department, visit:https://swcet.in/"]
+                  },
+                  {
+                    "tag":"Production engineering department",
+                    "patterns":["information about Production engineering department",
+                      "about the course","program education knowledge","labs for the course","Hod of production engineering","Head of the department",
+                      "faculty","syllabus"],
+                    "response":["For detailed information of on production engineering department, visit:https://swcet.in/"]
+                  }
+                ]
+    }
+  

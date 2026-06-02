@@ -1,0 +1,6 @@
+torch
+numpy
+nltk
+SpeechRecognition
+pyttsx3
+PyAudio
